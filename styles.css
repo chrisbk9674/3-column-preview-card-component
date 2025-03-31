@@ -32,7 +32,7 @@ body {
 
 .sedans {
   background-color: #e28525;
-  border-radius: 6px 0px 0px 6px;
+  border-radius: 8px 0px 0px 8px;
 }
 
 .suvs {
@@ -41,7 +41,7 @@ body {
 
 .luxury {
   background-color: #00403f;
-  border-radius: 0px 6px 6px 0px;
+  border-radius: 0px 8px 8px 0px;
 }
 
 .vehicle-card-icon {
@@ -116,7 +116,7 @@ p {
 
   .sedans {
     background-color: #e28525;
-    border-radius: 6px 6px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
   }
 
   .suvs {
@@ -125,7 +125,7 @@ p {
 
   .luxury {
     background-color: #00403f;
-    border-radius: 0px 0px 6px 6px;
+    border-radius: 0px 0px 8px 8px;
   }
 
   p {
