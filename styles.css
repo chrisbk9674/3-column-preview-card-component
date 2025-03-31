@@ -69,7 +69,7 @@ p {
 }
 
 .vehicle-card button {
-  width: 127px;
+  width: auto;
   height: 48px;
   border: none;
   border-radius: 23px;
@@ -78,6 +78,7 @@ p {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
+  padding: 0px 32px 0px 32px;
 }
 
 .vehicle-card:nth-of-type(1) button {
