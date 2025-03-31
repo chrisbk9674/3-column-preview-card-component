@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+  outline: none !important;
+}
+
+* {
+  outline: 1px solid red;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #f2f2f2;
+
+  padding-top: 171px;
+}
+
+.vehicle-categories {
+  display: flex;
+  margin: 0 auto;
+  max-width: 921px;
+}
+
+.vehicle-card {
+  width: 307px;
+  padding: 48px 62px 48px 48px;
+}
+
+.sedans {
+  background-color: #e28525;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.suvs {
+  background-color: #016972;
+}
+
+.luxury {
+  background-color: #00403f;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.vehicle-card-icon {
+  width: 64px;
+  margin-bottom: 33px;
+}
+
+.vehicle-card-icon img {
+  width: 100%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 27px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 81px;
+}
+
+.vehicle-card button {
+  width: 127px;
+  height: 48px;
+  border: none;
+  border-radius: 23px;
+  background-color: #fff;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.vehicle-card:nth-of-type(1) button {
+  color: #e28525;
+}
+
+.vehicle-card:nth-of-type(2) button {
+  color: #006870;
+}
+
+.vehicle-card:nth-of-type(3) button {
+  color: #004241;
+}
+
+/* ====== Responsive Design ====== */
+
+@media (max-width: 970px) {
+  body {
+    padding: 88px 24px 88px 24px;
+  }
+}
+
+@media (max-width: 760px) {
+  .vehicle-categories {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 921px;
+  }
+
+  .vehicle-card {
+    padding: 48px 50px 48px 48px;
+  }
+
+  .sedans {
+    background-color: #e28525;
+    border-radius: 6px 6px 0px 0px;
+  }
+
+  .suvs {
+    background-color: #016972;
+  }
+
+  .luxury {
+    background-color: #00403f;
+    border-radius: 0px 0px 6px 6px;
+  }
+
+  p {
+    font-family: "Lexend Deca", sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+}
