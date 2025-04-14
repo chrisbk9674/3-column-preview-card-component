@@ -1,4 +1,4 @@
-# 🌟 3 Column Preview Card Component – Frontend Mentor Challenge\*\*
+# 🌟 Fully Responsive 3 Column Preview Card Component\*\*
 
 <p align="center">
   <img src="design/preview.jpg" alt="Stats Preview Card Component" width="50%">
